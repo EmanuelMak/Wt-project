@@ -1,0 +1,6 @@
+docker run -d --name mysql_container -p 8889:8889 -e MYSQL_DATABASE=myDb -e MYSQL_USER=root -e MYSQL_ROOT_PASSWORD=devved mysql:latest
+
+
+
+
+

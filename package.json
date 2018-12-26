@@ -1,0 +1,26 @@
+{
+  "name": "wt-project",
+  "version": "1.0.0",
+  "description": "\"our little social Network\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelMak/Wt-project.git"
+  },
+  "author": "Emanuel Mak, Johannes Bacher, Filip Radisavljevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelMak/Wt-project/issues"
+  },
+  "homepage": "https://github.com/EmanuelMak/Wt-project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.9"
+  }
+}
